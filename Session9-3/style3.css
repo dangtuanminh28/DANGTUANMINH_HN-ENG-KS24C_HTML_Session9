@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 .box {
     display: flex;
     flex-wrap: wrap;
@@ -12,8 +13,8 @@
     border: 2px solid black;
 }
 
-.child {
-    width: 350px;
+.number {
+    width: 347px;
     height: 100px;
     background-color: #3498db;
     display: flex;
@@ -24,6 +25,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.box .child:nth-child(5) {
-    width: 520px;
+
+.number5 {
+    width: 735px;
 }
